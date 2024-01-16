@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 750px;
+    background: url(/bg1.jpg) no-repeat center/cover;
+    padding: 0 10%;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.navbar__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.content{
+    width: 50%;
+    padding-top: 100px;
+}
+.content h3{
+     color: red;
+     font-family:cursive;
+}
+.content h1{
+    color: white;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.btn{
+    padding: 10px 24px;
+    background: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: chartreuse;
+    color: black;
+}
